@@ -1,7 +1,7 @@
 # Site settings
 title: Juan Pablo Prado - A blog about web conferences
 email: juan@juanpabloprado.com
-description: A blog about my favorite web conferences.
+#description: A blog about my favorite web conferences.
 url: "http://juanpabloprado.github.io" # the base hostname & protocol for your site
 twitter_username: juanpablosprado
 paginate: 3

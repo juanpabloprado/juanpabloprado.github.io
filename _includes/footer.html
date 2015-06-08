@@ -2,7 +2,10 @@
   <div class="grid">
     <div class="centered grid__col--6">
     	<img class="img--avatar" src="https://pbs.twimg.com/profile_images/607692101908758528/RQkD38Xu.jpg">
-      <p>{{ site.description }} <br>
+      <p>
+        {% if site.description %}
+        {{ site.description }} <br>
+        {% endif %}
         Follow <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> or
         subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
       </p>
